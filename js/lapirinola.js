@@ -32,12 +32,15 @@ while (dinero > 0 && apuesta >0)
         alert ("Ud no Aposto volver a comenzar")
         break;
     }
-    if (apuesta ===undefined) {
+    /*
+    no me funciona
+    if (apuesta ===NaN) {
         alert ("Ud no ingreso Apuesta volver a comenzar")
         break;
           }
-    //salen los numeros ramdom
-    document.write (`Ha salido el número: ${dado} <br>`); 
+
+    */     //salen los numeros ramdom
+     console.log (`Ha salido el número: ${dado} <br>`);
     if (numero == dado)
     {
     // si sale apuesta se multiplica el doble
@@ -49,7 +52,7 @@ while (dinero > 0 && apuesta >0)
     // si no sale pierde
         dinero = dinero - apuesta
         alert(`Perdiste! ${apuesta} te quedo: $${dinero}`)
-    }
+        }
     //si baja la cantidad de guita 0 chau
     if (dinero <= 0) 
     { alert("Hasta la vista Baby, perdiste!") 
