@@ -28,6 +28,11 @@ while (dinero > 0 && apuesta >0)
       alert ("Ingresar número entre 1 y 6 VOLVER A COMENZAR")
       break;
     }
+
+    if (isNaN) {
+        alert ("No ingreso Valor, Vuelva  a empezar")
+        break;
+            }
     // si es entre 1 a 6 let go! usuario
 
     else {
@@ -39,8 +44,13 @@ while (dinero > 0 && apuesta >0)
     let cantidad = prompt(`Cantidad que quiere apostar tienes:$${dinero}`); apuesta = parseInt(cantidad);
 
     // si no apuesta
-    if (apuesta ==0) {
+    if (apuesta ==0 ) {
         alert ("Ud no Aposto volver a comenzar")
+        break;
+    }
+    // prueba de control nan
+    if (isNaN) {
+        alert ("Por Favor Ingrese Valor, vuelva a empezar")
         break;
     }
 
