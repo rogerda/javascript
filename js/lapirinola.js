@@ -49,10 +49,10 @@ while (dinero > 0 && apuesta >0)
         break;
     }
     // prueba de control nan
-    if (isNaN) {
+   /* if (isNaN) {
         alert ("Por Favor Ingrese Valor, vuelva a empezar")
         break;
-    }
+    }*/
 
     //salen los numeros ramdom
         console.log (`Ha salido el número: ${dado} <br>`);
