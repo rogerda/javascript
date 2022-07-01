@@ -29,10 +29,10 @@ while (dinero > 0 && apuesta >0)
       break;
     }
 
-    if (isNaN) {
-        alert ("No ingreso Valor, Vuelva  a empezar")
-        break;
-            }
+    // if (isNaN) {
+    //     alert ("No ingreso Valor, Vuelva  a empezar")
+    //     break;
+    //         }
     // si es entre 1 a 6 let go! usuario
 
     else {
