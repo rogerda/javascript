@@ -33,7 +33,7 @@ while (dinero > 0 && apuesta >0)
     //     alert ("No ingreso Valor, Vuelva  a empezar")
     //     break;
     //         }
-    // si es entre 1 a 6 let go! usuario
+    // si es entre 1 a 6 let go! usuario.
 
     else {
         alert ("Juguemos a la Pirinola hace tu apuesta!!!")
@@ -86,4 +86,3 @@ while (dinero > 0 && apuesta >0)
         break;
     }
 }
-    
