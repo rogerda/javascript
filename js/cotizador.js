@@ -11,7 +11,9 @@ Seguro.prototype.cotizarSeguro = function () {
         2 = CHEVROLET 1.05
         3 = FIAT 1.35     
         4 = JEEP 2.50 
-        5 = PEUGEOT 1.80       
+        5 = PEUGEOT 1.80  
+        6 = TOYOTA 2.10  
+        7 = MERCEDES BENZ 5.80   
     */ 
 
     let cantidad;
@@ -36,6 +38,9 @@ Seguro.prototype.cotizarSeguro = function () {
         case '6':
             cantidad = base * 2.10;
             break;
+        case '7':
+            cantidad = base * 5.80;
+            break;
     }
 
     //leer el año
@@ -49,7 +54,7 @@ Seguro.prototype.cotizarSeguro = function () {
    if (this.tipo === 'basico') {
        cantidad *= 1.30;
    } else {
-       cantidad *= 1.50;
+       cantidad *= 1.90;
    }
     return cantidad;
 }
@@ -90,14 +95,17 @@ Interfaz.prototype.mostrarResultado = function (seguro, total) {
         case '3':
             marca = 'FIAT';
             break;  
-            case '4':
+        case '4':
             marca = 'JEEP';
             break;   
-            case '5':
+        case '5':
             marca = 'PEUGEOT';
             break;  
-            case '6':
+        case '6':
             marca = 'TOYOTA';
+            break;
+        case '6':
+            marca = 'MERCEDES BENZ';
             break;  
     }
 
