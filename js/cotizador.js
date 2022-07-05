@@ -104,7 +104,7 @@ Interfaz.prototype.mostrarResultado = function (seguro, total) {
         case '6':
             marca = 'TOYOTA';
             break;
-        case '6':
+        case '7':
             marca = 'MERCEDES BENZ';
             break;  
     }
