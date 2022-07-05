@@ -51,13 +51,13 @@ Seguro.prototype.cotizarSeguro = function () {
         Si el seguro es Básico * 30% más
         Si el seguro es Completo 90% más
     */
+   
    if (this.tipo === 'basico') {
        cantidad *= 1.30;
    } else {
        cantidad *= 1.90;
    }
-   
-    return cantidad;
+   return cantidad;
 }
 
 //parte visual HTML
