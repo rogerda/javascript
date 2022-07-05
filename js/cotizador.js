@@ -27,12 +27,15 @@ Seguro.prototype.cotizarSeguro = function () {
         case '3':
             cantidad = base * 1.35;
             break;
-            case '4':
+        case '4':
             cantidad = base * 2.50;
             break;
-            case '5':
-                cantidad = base * 1.80;
-                break;
+        case '5':
+            cantidad = base * 1.80;
+            break;
+        case '6':
+            cantidad = base * 2.10;
+            break;
     }
 
     //leer el año
@@ -88,8 +91,14 @@ Interfaz.prototype.mostrarResultado = function (seguro, total) {
             marca = 'FIAT';
             break;  
             case '4':
-                marca = 'JEEP';
-                break;   
+            marca = 'JEEP';
+            break;   
+            case '5':
+            marca = 'PEUGEOT';
+            break;  
+            case '6':
+            marca = 'TOYOTA';
+            break;  
     }
 
     //crear un div
