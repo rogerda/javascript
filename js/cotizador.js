@@ -175,6 +175,7 @@ for (let i = max; i > min; i--) {
    selectAnios.appendChild(option);
     
 }
+//borrar formulario recargar
 let refresh = document.getElementById('refresh');
 refresh.addEventListener('click', _ => {
             location.reload();
