@@ -9,5 +9,16 @@
 <body>
 
    <script src="./js/arrays.js"></script> 
+   <script>
+    document.write(`<h3>Inicio del Programa Notas</h3>`);
+    mostrar();
+   
+    lista = window.prompt(`Introduzca el número del alumno (0-5)`, `0`);
+    lista = parseInt(lista);
+    modificar(lista);
+    mostrar();
+   
+    document.write(`<h3>Fin del Programa Notas</h3>`);
+    </script> 
 </body>
 </html>
