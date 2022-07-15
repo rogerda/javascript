@@ -2,9 +2,9 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: Optima, sans-serif;
-    --border: 1px solid hsla(240, 25% ,50% , 0.3);
+    --border: 1px solid rgba(8, 8, 77, 0.3);
     --border-table: 1px solid hsla(240, 25% ,50% , 01);
-    background: hsl(240, 20%, 20%)
+    background: hsl(240, 20%, 98%)
   }
   h1 {
     text-align: center;
@@ -142,7 +142,7 @@ body {
     padding-right: 0.3rem;
   }
   .boton {
-    background: hsla(210, 40%, 70%, .7);
+    background: rgba(150, 236, 190, 0.7);
     cursor: pointer;
     border: var(--border);
     font-size: 1rem;
