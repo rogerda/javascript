@@ -7,6 +7,7 @@ class Tarea {
     }
 }
 let tareas = []
+// null o array de tareas recordar si es la primera vez
 
 if (localStorage.getItem ('tareas')) {
     tareas = JSON.parse (localStorage.getItem ('tareas'))

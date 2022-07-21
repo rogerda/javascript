@@ -6,6 +6,13 @@ body {
     --border-table: 1px solid hsla(240, 25% ,50% , 01);
     background: hsl(240, 20%, 98%)
   }
+  form input{
+    width:100%;
+  }
+  #submit{
+    width:50%;
+    margin-top: 10px;
+  }
   h1 {
     text-align: center;
     color: white;

@@ -72,6 +72,30 @@
       </tfoot>
     </table>
   </div>
+  <div class="container">
+    <div class="row">
+      <div class="col-6">
+        <form action=form-group"" method="POST" id="formulario" onsubmit="return false">
+          <label  for="nombre">Nombre:</label>
+          <input type="text" name="nombre" id="nombre" />
+          <br>
+          <label  for="apellidos">Apellidos:</label>
+          <input type="text" name="apellidos" id="apellidos" />
+          <br>
+          <label  for="edad">Edad:</label>
+          <input type="text" name="edad" id="edad" />
+          <br>
+          <input type="submit" value="Enviar" id="submit">
+        </form>
+      </div>
+      <div class="col-6 box">
+        <h3>Información </h3><hr>
+        <p id="p_nombre">Nombre : <span></span></p>
+        <p id="p_apellidos">Apellidos : <span></span></p>
+        <p id="p_edad">Edad : <span></span></p>
+      </div>
+    </div>
+  </div>
     <script src="./js/seguro.js"></script>  
 </body>
 </html>
