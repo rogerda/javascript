@@ -30,6 +30,7 @@ const productos = {
       descripcion: 'La mejor cobertura para todo tipo de evento en tu hogar. Que nada te sorpenda',
       srcImg: './images/casa.jpg'
     }
+    
   }
   // Se captura productos agarralo que se escapa ja
   const templateProd = document.getElementById('template-prod').content
